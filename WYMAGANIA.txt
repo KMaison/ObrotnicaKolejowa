@@ -1,0 +1,15 @@
+Wokó³ du¿ej obrotnicy kolejowej rozchodz¹ siê promieniœcie tory kolejowe a na nich stoj¹ wagony do przetoczenia. Na obrotnicê mo¿e wjechaæ maksymalnie 10 wagonów. Mo¿na na ni¹ wjechaæ i zjechaæ tylko z jednej strony.
+Naszym zadaniem jest symulacja przetaczania wagonów.
+Wejœcie
+
+W pierwszej linii znajduje siê liczba t informuj¹ca o liczbie torów kolejowych wokó³ obrotnicy. W kolejnych t liniach znajduje siê liczba ni mówi¹ca o liczbie wagonów na i-tym torze oraz ni liczb - identyfikatorów wagonów. Numery torów podawane s¹ zgodnie z ruchem wskazówek zegara. Wagony wyœwietlane s¹ od strony obrotnicy.
+W kolejnej linii znajduje siê liczba n - instrukcji do wykonania.
+W nastêpnych n liniach znajduj¹ siê instrukcje:
+z liczba - przesuñ obrotnicê o liczba torów zgodnie z ruchem wskazówek zegara
+o liczba - przesuñ obrotnicê o liczba torów odwrotnie do ruchu wskazówek zegara
+w liczba - wprowadŸ liczba wagonów na obrotnicê (wprowadzamy do pojemnoœci obrotnicy i nie wiêcej ni¿ liczba wagonów na torze)
+j liczba - wyjedŸ liczba wagonami z obrotnicy (nie mo¿na wyprowadziæ wiêcej ni¿ liczba wagonów na obrotnicy)
+Na pocz¹tku obrotnica obrócona jest w stronê pierwszego toru.
+Wyjœcie
+
+W pierwszej linii nale¿y wypisaæ liczbê wagonów na obrotnicy i wypisaæ ich identyfikatory od wagonu bli¿ej wyjazdu z obrotnicy. W nastêpnych t liniach nale¿y wypisaæ liczbê wagonów oraz identyfikatory wagonów zaczynaj¹c od toru wskazywanego przez obrotnicê wypisuj¹c tory zgodnie z ruchem wskazówek zegara. Wagony nale¿y wypisywaæ od strony obrotnicy.
